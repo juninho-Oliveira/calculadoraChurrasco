@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação web para gerenciar churrascos. Ele permite criar, editar e excluir eventos de churrasco, além de calcular a quantidade necessária de carne, pão de alho, carvão, refrigerante e cerveja com base no número de homens, mulheres e crianças que participarão do evento.
 
+<img src="/tela.jpg" style="width: 300px;">
+
 ## Funcionalidades
 
 1. **Página inicial**: Exibe uma tabela com os detalhes dos churrascos (Data, Quantidade de Pessoas, Carne, Pão de alho, Carvão, Refrigerante, Cerveja e Ações). As ações incluem botões para editar e excluir um churrasco.

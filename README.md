@@ -1,33 +1,44 @@
-# Calculadora de Churrasco
+# Projeto Churrasco
 
-## Descrição
+Este projeto é uma aplicação web para gerenciar churrascos. Ele permite criar, editar e excluir eventos de churrasco, além de calcular a quantidade necessária de carne, pão de alho, carvão, refrigerante e cerveja com base no número de homens, mulheres e crianças que participarão do evento.
 
-Esta calculadora de churrasco foi desenvolvida pelo grupo CodeVerse durante o curso da ADA tech - Ifood. Ela permite que você insira a quantidade de pessoas para o churrasco e, em seguida, calcula automaticamente a quantidade de materiais necessários para o evento.
+## Funcionalidades
 
-## Instalação
+1. **Página inicial**: Exibe uma tabela com os detalhes dos churrascos (Data, Quantidade de Pessoas, Carne, Pão de alho, Carvão, Refrigerante, Cerveja e Ações). As ações incluem botões para editar e excluir um churrasco.
 
-Certifique-se de ter [Node.js](https://nodejs.org/) instalado em sua máquina.
+2. **Página de criação de churrasco**: Contém campos para indicar a quantidade de homens, mulheres e crianças. Ao clicar no botão "Criar", a aplicação calcula a quantidade necessária de itens para o churrasco e salva as informações no servidor.
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/calculadora-churrasco.git`
-2. Navegue até o diretório do projeto: `cd calculadora-churrasco`
-3. Instale as dependências: `npm install`
+3. **Página de edição de churrasco**: Similar à página de criação, mas permite editar um churrasco existente. Ao clicar no botão "Salvar", a aplicação recalcula a quantidade de itens e atualiza as informações no servidor.
 
-## Como Usar
+## Critérios
 
-1. Execute o aplicativo: `npm start`
-2. Abra o navegador e acesse `http://localhost:3000`
-3. Insira a quantidade de pessoas e a calculadora apresentará a quantidade de materiais necessários para o churrasco.
+- A calculadora deve funcionar corretamente e atender aos requisitos especificados.
+- O código deve fazer uso de seletores e métodos para manipulação do DOM.
+- O código deve fazer uso de adição e remoção de classes e estilização através do Javascript.
+- O código deve fazer uso de eventos ligados aos elementos da página.
+- O código deve fazer uso da API JSON (json-server).
+- O código deve fazer uso de chamadas assíncronas e seus derivados.
 
-## Contribuição
+## Grupo
 
-Sinta-se à vontade para contribuir com melhorias. Para contribuir:
+<a href="https://github.com/ananeres">Ana Patrícia</a>
 
-1. Fork o projeto
-2. Crie um branch (`git checkout -b feature/nova-feature`)
-3. Faça commit das suas alterações (`git commit -am 'Adiciona nova feature'`)
-4. Faça push para o branch (`git push origin feature/nova-feature`)
-5. Abra uma solicitação de pull
+<a href="https://github.com/VictorCallegari">Victor Callegari</a>
 
-## Licença
+<a href="https://github.com/HaralanS">Haralan Santana</a>
 
-Este projeto é distribuído sob a licença [MIT](LICENSE).
+<a href="https://github.com/AndersonS7">Anderson Queiroz</a>
+
+<a href="https://github.com/elizacso">Eliza</a>
+
+<a href="https://github.com/juninho-Oliveira">Damião Junior</a>
+
+
+## Dependências
+
+Este projeto faz uso do pacote json-server para simular uma API RESTful. Para iniciar, execute o seguinte comando:
+
+```bash
+npx json-server db.json   
+
+
